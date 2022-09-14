@@ -5,4 +5,4 @@ import keepAlive from "../keep-alive/store/cacheReducer";
 
 const store = legacy_createStore(combineReducers({keepAlive}), composeWithDevTools())
 
-export default store
+export default store;
